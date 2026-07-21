@@ -342,12 +342,10 @@ Contributions welcome — see [Contributing](#contributing).
 
 Contributions are welcome! To add a paper, tool, or benchmark:
 
-1. Add an entry to the most relevant section, following the existing format:
+Open a pull request. Add an entry to the most relevant section, following the existing format:
    `- **(Venue Year) Title** [[Paper](link)] [[Code](link)] [[Data](link)]` followed by a one-sentence description and lowercase, hyphenated topic tags.
-2. If none of the existing sections fit, propose a new one via your pull request description.
-3. Open a pull request.
 
-### Contacting
+## Contacting
 
 For any enquiries, please contact Yintong Huo (ythuo@smu.edu.sg) or Minxing Wang (mx.wang.2026@phdcs.smu.edu.sg). We welcome any discussions and suggestions :)
 
