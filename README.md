@@ -34,16 +34,16 @@ Contributions welcome — see [Contributing](#contributing).
 8. [Trajectory Representation](#trajectory-representation)
 9. [Human-Centered Analysis, Visualization, and Explainability](#human-centered-analysis-visualization-and-explainability)
 10. [Benchmarks and Datasets](#benchmarks-and-datasets)
-  10.1. [Coding Agents](#coding-agents)
-  10.2 [General Agents/Mixed](#general-agentsmixed)
-  10.3. [Deep-Research Agents](#deep-research-agents)
+    1. [Coding Agents](#coding-agents)
+    2. [General Agents/Mixed](#general-agentsmixed)
+    3. [Deep-Research Agents](#deep-research-agents)
 
 ---
 
 ### Surveys 
 
 1. **(arXiv 2026) Agent System Operations: Categorization, Challenges, and Future Directions** [[Paper](https://arxiv.org/abs/2606.01581)]
-   — Defines AgentOps around monitoring, anomaly detection, root-cause
+    — Defines AgentOps around monitoring, anomaly detection, root-cause
    localization, and resolution, with intra-agent and inter-agent anomaly
    taxonomies.
    `survey` `agentops` `agent-debugging`
