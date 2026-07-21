@@ -1,4 +1,4 @@
-![awesome-agent-trajectory](6d84be76-70c0-47d7-8dca-3f82fac54cb1.jpeg)
+![awesome-agent-trajectory](cover.jpeg)
 
 # Awesome-Agent-Trajectory
 
@@ -349,7 +349,7 @@ Contributions are welcome! To add a paper, tool, or benchmark:
 
 ### Contacting
 
-For any enqueries, please contact Yintong Huo (ythuo@smu.edu.sg) or Minxing Wang (mx.wang.2026@phdcs.smu.edu.sg). We are happy to take any discussions and suggestions!
+For any enquiries, please contact Yintong Huo (ythuo@smu.edu.sg) or Minxing Wang (mx.wang.2026@phdcs.smu.edu.sg). We welcome any discussions and suggestions :)
 
 ## License
 
