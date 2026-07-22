@@ -62,11 +62,11 @@ Contributions welcome | see [Contributing](#contributing).
    `survey` `trajectory-analysis`
 
 3. **(arXiv 2026) Beyond Individual Intelligence: Surveying Collaboration, Failure Attribution, and Self-Evolution in LLM-based Multi-Agent Systems** [[Paper](https://arxiv.org/abs/2605.14892)]
-   | Organizes the field around four causally linked stages (the "LIFE" progression: Lay the capability foundation, Integrate through collaboration, Find faults through attribution, Evolve via self-improvement), providing taxonomies for each stage and a cross-stage research agenda for closed-loop, self-improving multi-agent systems.
+   | Organizes the field around four causally linked stages in the agent lifecycle, providing taxonomies for each stage and a cross-stage research agenda for closed-loop, self-improving multi-agent systems.
    `survey` `multi-agent` `failure-attribution`
 
 4. **(ICSME 2026) Towards Log Analysis for Reliability Engineering of Agentic Systems** [[Paper](https://orbilu.uni.lu/handle/10993/68795)]
-   | Vision paper outlining a research agenda to re-engineer the conventional log-analysis pipeline for agentic systems, proposing four research streams toward observability-driven reliability engineering.
+   | Vision paper outlining a research agenda to re-engineer the conventional log-analysis pipeline for agentic systems, proposing research streams toward observability-driven reliability engineering.
    `position-paper` `observability` `log-analysis`
 
 
@@ -360,7 +360,7 @@ Contributions welcome | see [Contributing](#contributing).
 ### Coding Agents 
 
 1. **RootSE Bench** [[Paper](https://arxiv.org/abs/2605.26563)] [[HuggingFace](https://huggingface.co/datasets/dengdan1999/RootSE)]
-   | Agentic coding trajectories (102 instances, 5,000+ execution steps across 35 repositories) annotated with erroneous-step and diagnostic justification.
+   | Agentic coding trajectories from diverse coding applications (102 instances, 5,000+ execution steps across 35 repositories) annotated with erroneous-step and diagnostic justification.
    `coding-trajectory` `failure attribution` `multi-language`
 
 2. **AgentProcessBench** [[Paper](https://arxiv.org/abs/2603.14465)] [[HuggingFace](https://huggingface.co/datasets/LulaCola/AgentProcessBench)]
