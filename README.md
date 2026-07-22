@@ -305,7 +305,7 @@ Contributions welcome | see [Contributing](#contributing).
 
 2. **AgentProcessBench** [[Paper](https://arxiv.org/abs/2603.14465)] [[HuggingFace](https://huggingface.co/datasets/LulaCola/AgentProcessBench)]
    | Human-annotated tool-using trajectories (1,000 trajectories, 8,509 step annotations) for evaluating step-level process quality.
-   `step-annotation` `process-assessment`
+   `tool-agent` `step-annotation` `process-assessment`
 
 3. **CodeTraceBench** [[Paper](https://arxiv.org/abs/2604.11641)] [[HuggingFace](https://huggingface.co/datasets/NJU-LINK/CodeTraceBench)]
    | Coding-agent trajectories (1,000 human-verified) with stage-level annotations for diagnosis.
