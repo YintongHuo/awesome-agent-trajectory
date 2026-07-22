@@ -58,7 +58,7 @@ Contributions welcome | see [Contributing](#contributing).
 
 *Empirical research that describes how agents behave and identifies recurring trajectory structures, strategies, and failure patterns.*
 
-1. **(ASE 2025) Understanding Software Engineering Agents: A Study of Thought-Action-Result Trajectories** [[Paper](https://arxiv.org/abs/2506.18824)] [![GitHub Repo stars](https://img.shields.io/github/stars/sola-st/llm-agents-study)](https://github.com/sola-st/llm-agents-study)
+1. **(ASE 2025 Distinguished Paper Award) Understanding Software Engineering Agents: A Study of Thought-Action-Result Trajectories** [[Paper](https://arxiv.org/abs/2506.18824)] [![GitHub Repo stars](https://img.shields.io/github/stars/sola-st/llm-agents-study)](https://github.com/sola-st/llm-agents-study)
    | Studies 120 trajectories and 2,822 LLM interactions, identifying recurring motifs, anti-patterns, token-use patterns, and feedback-integration agentic coding behavior.
    `coding agents` `thought-action-result`
 
@@ -189,7 +189,7 @@ Contributions welcome | see [Contributing](#contributing).
    | Introduces AgentDiet to remove low-value interactions, reducing token costs while preserving performance.
    `general-agent` `trajectory-reduction` `efficiency`
 
-4. **(ICSE 2026) SEAlign: Alignment Training for Software Engineering Agent** [[Paper](https://arxiv.org/abs/2503.18455)]
+4. **(ICSE 2026 Distinguished Paper Award) SEAlign: Alignment Training for Software Engineering Agent** [[Paper](https://arxiv.org/abs/2503.18455)]
    | Uses Monte Carlo Tree Search over software-engineering execution data plus preference optimization to align agents with effective development behavior.
    `coding-agent` `alignment-training` `trajectory-learning`
 
