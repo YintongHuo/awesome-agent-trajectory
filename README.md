@@ -29,7 +29,7 @@ Contributions welcome | see [Contributing](#contributing).
 
 ## Table of Contents
 
-1. [Surveys](#surveys)
+1. [Surveys and Position Papers](#surveys-and-position-papers)
 2. [Empirical Study/Characterization](#empirical-studycharacterization)
 3. [Failure Localization, Attribution, and Diagnosis](#failure-localization-attribution-and-diagnosis)
 4. [Runtime Intervention, Recovery, and Repair](#runtime-intervention-recovery-and-repair)
@@ -42,10 +42,13 @@ Contributions welcome | see [Contributing](#contributing).
     1. [Coding Agents](#coding-agents)
     2. [General Agents/Mixed](#general-agentsmixed)
     3. [Deep-Research Agents](#deep-research-agents)
+    4. [Evaluation Methodology](#evaluation-methodology)
 
 ---
 
-### Surveys 
+### Surveys and Position Papers 
+
+*Literature surveys and forward-looking position/vision papers that map the trajectory-analysis landscape or propose research agendas for it.*
 
 1. **(arXiv 2026) Agent System Operations: Categorization, Challenges, and Future Directions** [[Paper](https://arxiv.org/abs/2606.01581)]
     | Defines AgentOps around monitoring, anomaly detection, root-cause
@@ -57,6 +60,14 @@ Contributions welcome | see [Contributing](#contributing).
    | Reviews trajectory-based failure taxonomy, attribution, enhancement,
    debugging tools, and benchmarks.
    `survey` `trajectory-analysis`
+
+3. **(arXiv 2026) Beyond Individual Intelligence: Surveying Collaboration, Failure Attribution, and Self-Evolution in LLM-based Multi-Agent Systems** [[Paper](https://arxiv.org/abs/2605.14892)]
+   | Organizes the field around four causally linked stages (the "LIFE" progression: Lay the capability foundation, Integrate through collaboration, Find faults through attribution, Evolve via self-improvement), providing taxonomies for each stage and a cross-stage research agenda for closed-loop, self-improving multi-agent systems.
+   `survey` `multi-agent` `failure-attribution`
+
+4. **(ICSME 2026) Towards Log Analysis for Reliability Engineering of Agentic Systems** [[Paper](https://orbilu.uni.lu/handle/10993/68795)]
+   | Vision paper outlining a research agenda to re-engineer the conventional log-analysis pipeline for agentic systems, proposing four research streams toward observability-driven reliability engineering.
+   `position-paper` `observability` `log-analysis`
 
 
 ### Empirical Study/Characterization 
@@ -140,11 +151,11 @@ Contributions welcome | see [Contributing](#contributing).
    | Adapts spectrum-based fault-localization from software testing (FAMAS) to score which agent actions are most suspicious across repeated trajectory executions.
    `multi-agent` `SBFL` `general-agent`
 
-8. **(ACL 2026) Seeing the Whole Elephant: A Benchmark for Failure Attribution in LLM-based Multi-Agent Systems** [[Paper](https://arxiv.org/abs/2604.22708)] [![GitHub Repo stars](https://img.shields.io/github/stars/TraceElephant/TraceElephant)](https://github.com/TraceElephant/TraceElephant)
+8. **(ACL 2026) Seeing the Whole Elephant: A Benchmark for Failure Attribution in LLM-based Multi-Agent Systems** [[Paper](https://aclanthology.org/2026.acl-long.912/)] [![GitHub Repo stars](https://img.shields.io/github/stars/TraceElephant/TraceElephant)](https://github.com/TraceElephant/TraceElephant)
    | Introduces TraceElephant, a benchmark and evaluation framework that captures complete multi-agent execution traces for assessing failure attribution across agents, interactions, and time steps.
    `multi-agent` `benchmarking` 
 
-9. **(EACL 2026) RAFFLES: Reasoning-Based Attribution of Faults for LLM Systems** [[Paper](https://arxiv.org/abs/2509.06822)]
+9. **(EACL 2026) RAFFLES: Reasoning-Based Attribution of Faults for LLM Systems** [[Paper](https://aclanthology.org/2026.eacl-long.359/)]
    | Presents an offline evaluation architecture that combines structured reasoning with iterative refinement to attribute system-level failures to faulty agents and execution steps.
    `general-agent` `Judge-Evaluator system` `iterative reasoning`
 
@@ -155,6 +166,30 @@ Contributions welcome | see [Contributing](#contributing).
 11. **(arXiv 2026) AgentRx: Diagnosing AI Agent Failures from Execution Trajectories** [[Paper](https://arxiv.org/abs/2602.02475)] [![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/AgentRx)](https://github.com/microsoft/AgentRx)
     | Synthesizes and checks step-wise constraints to diagnose root causes and pinpoint the earliest unrecoverable point in failed executions.
     `general-agent` `root-cause-analysis` `failure-localization`
+
+12. **(Findings of ACL 2026) Towards Self-Improving Error Diagnosis in Multi-Agent Systems** [[Paper](https://aclanthology.org/2026.findings-acl.98/)]
+    | Introduces ErrorProbe, which detects local anomalies via failure-taxonomy-conditioned prompting, traces backward from the symptom to prune irrelevant context, then has a multi-agent verifier team (Strategist, Investigator, Arbiter) validate error hypotheses through tool-grounded execution, updating an episodic memory only when a hypothesis is confirmed by executable evidence, without requiring manual annotation.
+    `multi-agent` `failure-attribution` `experience-bank`
+
+13. **(arXiv 2026) MASPrism: Lightweight Failure Attribution for Multi-Agent Systems Using Prefill-Stage Signals** [[Paper](https://arxiv.org/abs/2605.07509)]
+    | Runs a completed trace through a small LM in two prefill-only passes to flag and re-rank candidate failure steps using token-level negative log-likelihood and attention signals, giving a ~6.7x speedup over single-pass prompting.
+    `multi-agent` `failure-attribution` `prefill-signals`
+
+14. **(Preprint 2026) Diagnosing with Insights: Structured Analysis of Agent Failures via Behavioral Abstractions** [[Paper](https://openreview.net/forum?id=iHU4LYSgTD)]
+    | Abstracts a completed trajectory into a reasoning-action graph and checks it against taxonomy-derived formal invariants to pinpoint both the failing step and its failure type.
+    `multi-agent` `graph-based` `root-cause-analysis`
+
+15. **(arXiv 2026) Who Broke the System? Failure Localization in LLM-Based Multi-Agent Systems** [[Paper](https://arxiv.org/abs/2607.07989)]
+    | Introduces AgentLocate, which combines an LLM-based judge with multi-perspective verification by independent evaluators and confidence-aware aggregation, then adapts the judge via lightweight fine-tuning to attribute failures to both the responsible agent and the earliest decisive step.
+    `multi-agent` `failure-attribution` `llm-as-judge`
+
+16. **(arXiv 2026) VerifyMAS: Hypothesis Verification for Failure Attribution in LLM Multi-Agent Systems** [[Paper](https://arxiv.org/abs/2605.17467)]
+    | Reframes failure attribution as error-first hypothesis verification against full trajectories rather than direct agent-error prediction, decomposing it into trajectory-level error validation and fine-grained agent localization via a fine-tuned LLM verifier.
+    `multi-agent` `failure-attribution` `hypothesis-verification`
+
+17. **(arXiv 2026) StepFinder: A Temporal Semantic Framework for Failure Attribution in Multi-Agent Systems** [[Paper](https://arxiv.org/abs/2606.03467)] [![GitHub Repo stars](https://img.shields.io/github/stars/taiyu-zhu/StepFinder)](https://github.com/taiyu-zhu/StepFinder)
+    | Encodes execution logs into temporal semantic sequences with an LLM, then uses lightweight temporal modeling and attention over the sequence to score and localize the root-cause step, cutting inference time by 79% versus the fastest LLM-based baseline.
+    `multi-agent` `failure-attribution` `temporal-modeling`
 
 
 ### Runtime Intervention, Recovery, and Repair 
@@ -176,6 +211,18 @@ Contributions welcome | see [Contributing](#contributing).
 4. **(CHI 2026 Extended Abstracts) XAgen: An Explainability Tool for Identifying and Correcting Failures in Multi-Agent Workflows** [[Paper](https://arxiv.org/abs/2512.17896)]
    | Connects failure explanations (log visualization, human-in-the-loop feedback, LLM-as-a-judge error detection) to interactive correction of multi-agent workflows.
    `multi-agent` `explainability` `workflow-repair`
+
+5. **(FSE Companion 2026) Efficient Failure Management for Multi-Agent Systems with Reasoning Trace Representation** [[Paper](https://doi.org/10.1145/3803437.3805560)]
+   | Proposes EAGER, which uses unsupervised reasoning-scoped contrastive learning over intra-agent reasoning and inter-agent coordination traces to enable realtime step-wise failure detection, diagnosis, and reflexive mitigation guided by historical failure patterns.
+   `multi-agent` `reasoning-trace` `runtime-intervention`
+
+6. **(arXiv 2026) REFLECT: Intervention-Supported Error Attribution for Silent Failures in LLM Agent Traces** [[Paper](https://arxiv.org/abs/2606.09071)]
+   | Diagnoses a candidate error step, tests it through controlled replay with a diagnosis-specific patch, and uses the verified outcome flip as contrastive evidence to refine the final attribution.
+   `general-agent` `intervention` `silent-failure`
+
+7. **(Findings of ACL 2026) Metacognitive Self-Correction for Multi-Agent System via Prototype-Guided Next-Execution Reconstruction** [[Paper](https://aclanthology.org/2026.findings-acl.1168/)]
+   | Introduces MASC, which reframes step-level error detection as history-conditioned anomaly scoring via next-execution reconstruction and a prototype prior over normal-step embeddings, then triggers a correction agent to revise the flagged step's output before it propagates downstream.
+   `multi-agent` `anomaly-detection` `self-correction`
 
 
 ### Learning and Optimization from Trajectories 
@@ -213,6 +260,10 @@ Contributions welcome | see [Contributing](#contributing).
 8. **(arXiv 2026) AgentDevel: Reframing Self-Evolving LLM Agents as Release Engineering** [[Paper](https://arxiv.org/abs/2601.04620)]
    | Treats agent evolution as a controlled release process driven by execution evidence and regression evaluation.
    `general-agent` `self-evolution` `release-engineering`
+
+9. **(arXiv 2026) PIVOT: Bridging Planning and Execution in LLM Agents via Trajectory Refinement** [[Paper](https://arxiv.org/abs/2605.11225)]
+   | Iteratively refines trajectories through a Plan-Inspect-eVOlve-Verify loop that executes candidate plans, computes textual gradients encoding plan-execution discrepancies, and applies them to produce improved trajectories with a monotonic acceptance guarantee.
+   `general-agent` `trajectory-refinement` `self-improvement`
 
 ### Anomaly Detection and Failure Forecasting 
 > *Methods that detect abnormal behavior or estimate whether an ongoing trajectory is becoming likely to fail.*
@@ -260,6 +311,10 @@ Contributions welcome | see [Contributing](#contributing).
 8. **(ACL-Findings 2026) ToolPRMBench: Evaluating and Advancing Process Reward Models for Tool-using Agents** [[Paper](https://arxiv.org/abs/2601.12294)] [![GitHub Repo stars](https://img.shields.io/github/stars/David-Li0406/ToolPRMBench)](https://github.com/David-Li0406/ToolPRMBench)
    | Introduces a large-scale benchmark of structured, step-level test cases for evaluating and advancing process reward models in tool-using agent scenarios.
    `tool-agent` `process-reward-model` `benchmark`
+
+9. **(arXiv 2026) Beyond the Final Answer: Evaluating the Reasoning Trajectories of Tool-Augmented Agents** [[Paper](https://arxiv.org/abs/2510.02837)]
+   | Introduces TRACE, a reference-free framework that builds a progressive evidence bank from an agent's reasoning steps to score trajectory efficiency, hallucination, and adaptivity without requiring ground-truth trajectory annotations.
+   `tool-agent` `reference-free-evaluation` `trajectory-triage`
 
 ### Trajectory Representation 
 
@@ -335,11 +390,23 @@ Contributions welcome | see [Contributing](#contributing).
    | Multi-perspective attribution data (289 instances) containing per-annotator failure-reason and ideal-action annotations.
    `multi-agent` `multi-perspective` `ideal-action`
 
+5. **Aegis** [[Paper](https://arxiv.org/abs/2509.14295)] [![GitHub Repo stars](https://img.shields.io/github/stars/kfq20/AEGIS)](https://github.com/kfq20/AEGIS)
+   | 9,533 trajectories across diverse MAS architectures and task domains, automatically labeled with faulty agents and error modes via an LLM-based error injector, supporting SFT, RL, and contrastive-learning training paradigms.
+   `multi-agent` `failure-attribution` `automated-annotation`
+
 ### Deep-Research Agents 
 
 1. **TELBench** [[Paper](https://arxiv.org/abs/2606.02060)] [[HuggingFace](https://huggingface.co/datasets/NJU-LINK/TELBench)]
    | Expert-verified deep-research trajectories (2,790 real traces) segmented into semantic spans, with a 1,000-instance benchmark of harmful-error annotations.
    `deep-research-agent` `span-localization`
+
+### Evaluation Methodology 
+
+*Benchmarks and resources that audit the reliability of evaluation itself, rather than annotating agent trajectories for failure attribution.*
+
+1. **AuditRepairBench** [[Paper](https://arxiv.org/abs/2605.04624)]
+   | Paired-execution trace corpus (576,000 registered cells, 96,000 executed) for auditing evaluator-channel-induced ranking instability on agent-repair leaderboards.
+   `agent-repair` `evaluator-bias` `leaderboard-robustness`
 
 ---
 
