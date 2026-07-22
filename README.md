@@ -2,11 +2,18 @@
 
 # Awesome-Agent-Trajectory
 
+Your all-in-one guide to agent trajectories.
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
+> **Trajectories are the source code of the agentic era.**
 
-A curated list of papers, tools, and benchmarks on **analyzing, diagnosing, and learning from LLM agent trajectories**.
+> If software engineering is defined by reading and writing code, **agent engineering** will be defined by capturing and optimizing execution trajectories. 
+
+*An **Agent Trajectory** is the step-by-step record of an autonomous agent's execution. It captures the agent's internal reasoning (thoughts, planning, reflections), the actions it took (tool calls, API payloads, bash commands), and the environment’s responses (observations, errors, system state changes). Trajectories are becoming the first-hand asset for debugging, evaluating, training, and auditing AI agents.*
+
+This repository is a curated collection of papers, tools, and benchmarks on **analyzing, diagnosing, and learning from LLM agent trajectories**.
 
 This list tracks work across the trajectory-analysis pipeline:
 
@@ -56,7 +63,7 @@ Contributions welcome | see [Contributing](#contributing).
 
 ### Empirical Study/Characterization 
 
-*Empirical research that describes how agents behave and identifies recurring trajectory structures, strategies, and failure patterns.*
+> *Empirical research that describes how agents behave and identifies recurring trajectory structures, strategies, and failure patterns.*
 
 1. **(ASE 2025 Distinguished Paper Award) Understanding Software Engineering Agents: A Study of Thought-Action-Result Trajectories** [[Paper](https://arxiv.org/abs/2506.18824)] [![GitHub Repo stars](https://img.shields.io/github/stars/sola-st/llm-agents-study)](https://github.com/sola-st/llm-agents-study)
    | Studies 120 trajectories and 2,822 LLM interactions, identifying recurring motifs, anti-patterns, token-use patterns, and feedback-integration agentic coding behavior.
@@ -105,7 +112,7 @@ Contributions welcome | see [Contributing](#contributing).
 
 ### Failure Localization, Attribution, and Diagnosis 
 
-*Methods that identify where a trajectory failed, which component was responsible, and why the failure occurred.*
+> *Methods that identify where a trajectory failed, which component was responsible, and why the failure occurred.*
 
 1. **(ICML 2025 Spotlight) Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems** [[Paper](https://proceedings.mlr.press/v267/zhang25cq.html)] [![GitHub Repo stars](https://img.shields.io/github/stars/ag2ai/Agents_Failure_Attribution)](https://github.com/ag2ai/Agents_Failure_Attribution)
    | Formalizes automated failure attribution at both the agent and step levels and introduces the Who&When benchmark.
@@ -154,7 +161,7 @@ Contributions welcome | see [Contributing](#contributing).
 
 ### Runtime Intervention, Recovery, and Repair 
 
-*Methods that modify an ongoing or failed execution to prevent, recover from, or repair a failure.*
+> *Methods that modify an ongoing or failed execution to prevent, recover from, or repair a failure.*
 
 1. **(CHI 2025) Interactive Debugging and Steering of Multi-Agent AI Systems** [[Paper](https://dl.acm.org/doi/10.1145/3706598.3713581)] [![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/agdebugger)](https://github.com/microsoft/agdebugger)
    | Introduces AGDebugger, an interface for inspecting, editing, resetting, and steering messages in multi-agent executions.
@@ -175,7 +182,7 @@ Contributions welcome | see [Contributing](#contributing).
 
 ### Learning and Optimization from Trajectories 
 
-*Methods that use historical trajectories to improve subsequent agent executions.*
+> *Methods that use historical trajectories to improve subsequent agent executions.*
 
 1. **(arXiv 2025) SCOPE: Prompt Evolution for Enhancing Agent Effectiveness** [[Paper](https://arxiv.org/abs/2512.15374)] [![GitHub Repo stars](https://img.shields.io/github/stars/JarvisPei/SCOPE)](https://github.com/JarvisPei/SCOPE)
    | Uses trajectory feedback to evolve prompts and improve future agent performance.
@@ -210,7 +217,7 @@ Contributions welcome | see [Contributing](#contributing).
    `general-agent` `self-evolution` `release-engineering`
 
 ### Anomaly Detection and Failure Forecasting 
-*Methods that detect abnormal behavior or estimate whether an ongoing trajectory is becoming likely to fail.*
+> *Methods that detect abnormal behavior or estimate whether an ongoing trajectory is becoming likely to fail.*
 
 1. **(arXiv 2025) Automatic Failure Attribution and Critical Step Prediction Method for Multi-Agent Systems Based on Causal Inference** [[Paper](https://arxiv.org/abs/2509.08682)]
    | Uses sequence-aware trajectory features to detect anomalous agent behavior during execution.
@@ -222,7 +229,7 @@ Contributions welcome | see [Contributing](#contributing).
 
 ### Trajectory Quality Assessment 
 
-*Methods that score the quality/rewarding of individual steps or whole trajectories.*
+> *Methods that score the quality/rewarding of individual steps or whole trajectories.*
 
 1. **(arXiv 2026) AgentEval: DAG-Structured Step-Level Evaluation for Agentic Workflows with Error Propagation Tracking** [[Paper](https://arxiv.org/abs/2604.23581)]
    | Evaluates workflow steps over a dependency graph while accounting for errors propagated from upstream actions.
@@ -258,7 +265,7 @@ Contributions welcome | see [Contributing](#contributing).
 
 ### Trajectory Representation 
 
-*Methods for structuring, abstracting, and exposing an agent’s internal state and external interactions.*
+> *Methods for structuring, abstracting, and exposing an agent’s internal state and external interactions.*
 
 1. **(PACMI 2025) AgentSight: System-Level Observability for AI Agents Using eBPF** [[Paper](https://arxiv.org/abs/2508.02736)] [![GitHub Repo stars](https://img.shields.io/github/stars/agent-sight/agentsight)](https://github.com/agent-sight/agentsight)
    | Applies system-level telemetry to observe agent interactions with tools, processes, and runtime environments.
@@ -278,7 +285,7 @@ Contributions welcome | see [Contributing](#contributing).
 
 ### Human-Centered Analysis, Visualization, and Explainability 
 
-*Systems that help people inspect, understand, annotate, compare, or control agent trajectories.*
+> *Systems that help people inspect, understand, annotate, compare, or control agent trajectories.*
 
 1. **(AAAI 2025 Demonstration) Agent Trajectory Explorer: Visualizing and Providing Feedback on Agent Trajectories** [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/35350)]
    | Renders trajectories as navigable thought-action-observation turns and provides an interface for visualizing, annotating, and communicating feedback about agent behavior.
@@ -295,7 +302,7 @@ Contributions welcome | see [Contributing](#contributing).
 
 ## Trajectory Benchmarks and Datasets
 
-*Benchmarks are organized by task domain.*
+> *Benchmarks are organized by task domain.*
 
 ### Coding Agents 
 
