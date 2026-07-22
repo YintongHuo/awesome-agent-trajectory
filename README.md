@@ -58,15 +58,15 @@ Contributions welcome — see [Contributing](#contributing).
 
 *Empirical research that describes how agents behave and identifies recurring trajectory structures, strategies, and failure patterns.*
 
-1. **(ASE 2025) Understanding Software Engineering Agents: A Study of Thought-Action-Result Trajectories** [[Paper](https://arxiv.org/abs/2506.18824)] [[Code](https://github.com/sola-st/llm-agents-study)]
+1. **(ASE 2025) Understanding Software Engineering Agents: A Study of Thought-Action-Result Trajectories** [[Paper](https://arxiv.org/abs/2506.18824)] ([![GitHub Repo stars](https://img.shields.io/github/stars/sola-st/llm-agents-study)](https://github.com/sola-st/llm-agents-study))
    — Studies 120 trajectories and 2,822 LLM interactions, identifying recurring motifs, anti-patterns, token-use patterns, and feedback-integration agentic coding behavior.
    `coding agents` `thought-action-result`
 
-2. **(ASE-NIER 2025) Exploring autonomous agents: A closer look at why they fail when completing tasks** [[Paper](https://arxiv.org/pdf/2508.13143)] [[Code](https://github.com/lurf21/Agent_Evaluation_Framework)]
+2. **(ASE-NIER 2025) Exploring autonomous agents: A closer look at why they fail when completing tasks** [[Paper](https://arxiv.org/pdf/2508.13143)] ([![GitHub Repo stars](https://img.shields.io/github/stars/lurf21/Agent_Evaluation_Framework)](https://github.com/lurf21/Agent_Evaluation_Framework))
    — Develops a three-tier taxonomy that characterizes autonomous-agent failures across task-planning, task-execution, and response-generation phases.
    `general-agent` `failure-taxonomy` `empirical-analysis`
 
-3. **(NeurIPS Dataset&Benchmark 2025) Why Do Multi-Agent LLM Systems Fail?** [[Paper](https://arxiv.org/pdf/2503.13657)] [[Code](https://github.com/multi-agent-systems-failure-taxonomy/MAST)]
+3. **(NeurIPS Dataset&Benchmark 2025) Why Do Multi-Agent LLM Systems Fail?** [[Paper](https://arxiv.org/pdf/2503.13657)] ([![GitHub Repo stars](https://img.shields.io/github/stars/multi-agent-systems-failure-taxonomy/MAST)](https://github.com/multi-agent-systems-failure-taxonomy/MAST))
    — Analyzes recurring failure modes in multi-agent systems and develops a taxonomy spanning agent design, coordination, and verification.
    `multi-agent` `failure-taxonomy`
 
@@ -107,7 +107,7 @@ Contributions welcome — see [Contributing](#contributing).
 
 *Methods that identify where a trajectory failed, which component was responsible, and why the failure occurred.*
 
-1. **(ICML 2025 Spotlight) Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems** [[Paper](https://proceedings.mlr.press/v267/zhang25cq.html)] [[Code/Data](https://github.com/ag2ai/Agents_Failure_Attribution)]
+1. **(ICML 2025 Spotlight) Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems** [[Paper](https://proceedings.mlr.press/v267/zhang25cq.html)] ([![GitHub Repo stars](https://img.shields.io/github/stars/ag2ai/Agents_Failure_Attribution)](https://github.com/ag2ai/Agents_Failure_Attribution))
    — Formalizes automated failure attribution at both the agent and step levels and introduces the Who&When benchmark.
    `multi-agent` `failure-attribution` `temporal-localization`
 
@@ -127,7 +127,7 @@ Contributions welcome — see [Contributing](#contributing).
    — Uses abductive reasoning, interventions, and predictions to causally attribute multi-agent failures.
    `multi-agent` `causal-inference` `abductive-reasoning`
 
-6. **(ICLR 2026) AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?** [[Paper](https://arxiv.org/abs/2509.03312)] [[Code](https://github.com/bingreeky/AgenTracer)]
+6. **(ICLR 2026) AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?** [[Paper](https://arxiv.org/abs/2509.03312)] ([![GitHub Repo stars](https://img.shields.io/github/stars/bingreeky/AgenTracer)](https://github.com/bingreeky/AgenTracer))
    — Trains an AgenTracer-8B via counterfactual replay and programmed fault injection to attribute failures to responsible agents or trajectory segments.
    `multi-agent` `failure-attribution` `tracer-model`
 
@@ -135,7 +135,7 @@ Contributions welcome — see [Contributing](#contributing).
    — Adapts spectrum-based fault-localization from software testing (FAMAS) to score which agent actions are most suspicious across repeated trajectory executions.
    `multi-agent` `spectrum-analysis` `fault-localization`
 
-8. **(ACL 2026) Seeing the Whole Elephant: A Benchmark for Failure Attribution in LLM-based Multi-Agent Systems** [[Paper](https://arxiv.org/abs/2604.22708)] [[Code](https://github.com/TraceElephant/TraceElephant)]
+8. **(ACL 2026) Seeing the Whole Elephant: A Benchmark for Failure Attribution in LLM-based Multi-Agent Systems** [[Paper](https://arxiv.org/abs/2604.22708)] ([![GitHub Repo stars](https://img.shields.io/github/stars/TraceElephant/TraceElephant)](https://github.com/TraceElephant/TraceElephant))
    — Introduces TraceElephant, a benchmark and evaluation framework that captures complete multi-agent execution traces for assessing failure attribution across agents, interactions, and time steps.
    `multi-agent` `full-observability` `recovery`
 
@@ -143,11 +143,11 @@ Contributions welcome — see [Contributing](#contributing).
    — Presents an offline evaluation architecture that combines structured reasoning with iterative refinement to attribute system-level failures to faulty agents and execution steps.
    `general-agent` `fault-attribution` `reasoning`
 
-10. **(arXiv 2026) TrajAudit: Automated Failure Diagnosis for Agentic Coding Systems** [[Paper](https://arxiv.org/abs/2605.26563)] [[Code/Data](https://github.com/LogAnalysisTech/TrajAudit)]
+10. **(arXiv 2026) TrajAudit: Automated Failure Diagnosis for Agentic Coding Systems** [[Paper](https://arxiv.org/abs/2605.26563)] ([![GitHub Repo stars](https://img.shields.io/github/stars/LogAnalysisTech/TrajAudit)](https://github.com/LogAnalysisTech/TrajAudit))
     — Uses an investigator agent with context-reduction mechanisms to localize the earliest decisive error step in repository-level coding-agent trajectories and generate diagnostic justifications.
     `coding-agent` `failure-localization` `diagnosis`
 
-11. **(arXiv 2026) AgentRx: Diagnosing AI Agent Failures from Execution Trajectories** [[Paper](https://arxiv.org/abs/2602.02475)] [[Code](https://github.com/microsoft/AgentRx)]
+11. **(arXiv 2026) AgentRx: Diagnosing AI Agent Failures from Execution Trajectories** [[Paper](https://arxiv.org/abs/2602.02475)] ([![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/AgentRx)](https://github.com/microsoft/AgentRx))
     — Synthesizes and checks step-wise constraints to diagnose root causes and pinpoint the earliest unrecoverable point in failed executions.
     `general-agent` `root-cause-analysis` `failure-localization`
 
@@ -156,7 +156,7 @@ Contributions welcome — see [Contributing](#contributing).
 
 *Methods that modify an ongoing or failed execution to prevent, recover from, or repair a failure.*
 
-1. **(CHI 2025) Interactive Debugging and Steering of Multi-Agent AI Systems** [[Paper](https://dl.acm.org/doi/10.1145/3706598.3713581)] [[Code](https://github.com/microsoft/agdebugger)]
+1. **(CHI 2025) Interactive Debugging and Steering of Multi-Agent AI Systems** [[Paper](https://dl.acm.org/doi/10.1145/3706598.3713581)] ([![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/agdebugger)](https://github.com/microsoft/agdebugger))
    — Introduces AGDebugger, an interface for inspecting, editing, resetting, and steering messages in multi-agent executions.
    `multi-agent` `interactive-debugging` `runtime-steering`
 
@@ -177,7 +177,7 @@ Contributions welcome — see [Contributing](#contributing).
 
 *Methods that use historical trajectories to improve subsequent agent executions.*
 
-1. **(arXiv 2025) SCOPE: Prompt Evolution for Enhancing Agent Effectiveness** [[Paper](https://arxiv.org/abs/2512.15374)] [[Code](https://github.com/JarvisPei/SCOPE)]
+1. **(arXiv 2025) SCOPE: Prompt Evolution for Enhancing Agent Effectiveness** [[Paper](https://arxiv.org/abs/2512.15374)] ([![GitHub Repo stars](https://img.shields.io/github/stars/JarvisPei/SCOPE)](https://github.com/JarvisPei/SCOPE))
    — Uses trajectory feedback to evolve prompts and improve future agent performance.
    `general-agent` `prompt-optimization` `self-evolution`
 
@@ -193,7 +193,7 @@ Contributions welcome — see [Contributing](#contributing).
    — Uses Monte Carlo Tree Search over software-engineering execution data plus preference optimization to align agents with effective development behavior.
    `coding-agent` `alignment-training` `trajectory-learning`
 
-5. **(ACL 2026) ReCreate: Reasoning and Creating Domain Agents Driven by Experience** [[Paper](https://arxiv.org/abs/2601.11100)] [[Code](https://github.com/zz-haooo/ReCreate)]
+5. **(ACL 2026) ReCreate: Reasoning and Creating Domain Agents Driven by Experience** [[Paper](https://arxiv.org/abs/2601.11100)] ([![GitHub Repo stars](https://img.shields.io/github/stars/zz-haooo/ReCreate)](https://github.com/zz-haooo/ReCreate))
    — Uses accumulated execution experience to construct and refine domain-specific agents.
    `general-agent` `experience-learning` `agent-construction`
 
@@ -201,7 +201,7 @@ Contributions welcome — see [Contributing](#contributing).
    — Converts prior trajectories into reusable memories that guide future agent decisions.
    `general-agent` `memory` `self-improvement`
 
-7. **(arXiv 2026) Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills** [[Paper](https://arxiv.org/abs/2603.25158)] [[Code](https://github.com/Hert4/trace2skill)]
+7. **(arXiv 2026) Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills** [[Paper](https://arxiv.org/abs/2603.25158)] ([![GitHub Repo stars](https://img.shields.io/github/stars/Hert4/trace2skill)](https://github.com/Hert4/trace2skill))
    — Extracts local lessons from execution traces and converts them into reusable skills.
    `general-agent` `skill-distillation` `experience-learning`
 
@@ -228,11 +228,11 @@ Contributions welcome — see [Contributing](#contributing).
    — Evaluates workflow steps over a dependency graph while accounting for errors propagated from upstream actions.
    `workflow-agent` `step-evaluation` `DAG`
 
-2. **(arXiv 2026) AgentProcessBench: Diagnosing Step-Level Process Quality in Tool-Using Agents** [[Paper](https://arxiv.org/abs/2603.14465)] [[Code](https://github.com/RUCBM/AgentProcessBench)] 
+2. **(arXiv 2026) AgentProcessBench: Diagnosing Step-Level Process Quality in Tool-Using Agents** [[Paper](https://arxiv.org/abs/2603.14465)] ([![GitHub Repo stars](https://img.shields.io/github/stars/RUCBM/AgentProcessBench)](https://github.com/RUCBM/AgentProcessBench)) 
    — Introduces human-annotated trajectories and methods for evaluating the quality of individual reasoning and tool-use steps.
    `tool-agent` `process-quality` `benchmark`
 
-3. **(arXiv 2026) MAESTRO: Multi-Agent Evaluation Suite for Testing, Reliability, and Observability** [[Paper](https://arxiv.org/abs/2601.00481)] [[Code](https://github.com/sands-lab/maestro)]
+3. **(arXiv 2026) MAESTRO: Multi-Agent Evaluation Suite for Testing, Reliability, and Observability** [[Paper](https://arxiv.org/abs/2601.00481)] ([![GitHub Repo stars](https://img.shields.io/github/stars/sands-lab/maestro)](https://github.com/sands-lab/maestro))
    — Provides evaluation dimensions and testing infrastructure for multi-agent reliability and observability.
    `multi-agent` `evaluation` `testing infrastructure`
 
@@ -244,7 +244,7 @@ Contributions welcome — see [Contributing](#contributing).
    — Introduces a co-evolution framework that jointly improves an agent and a hierarchical rubric model to provide interpretable step-level process rewards for multi-step trajectories.
    `general-agent` `rubric-evaluation` `step-level-reward`
 
-6. **(arXiv 2026) AdaRubric: Task-Adaptive Rubrics for Reliable LLM Agent Evaluation and Reward Learning** [[Paper](https://arxiv.org/abs/2603.21362)] [[Code](https://github.com/alphadl/AdaRubrics)]
+6. **(arXiv 2026) AdaRubric: Task-Adaptive Rubrics for Reliable LLM Agent Evaluation and Reward Learning** [[Paper](https://arxiv.org/abs/2603.21362)] ([![GitHub Repo stars](https://img.shields.io/github/stars/alphadl/AdaRubrics)](https://github.com/alphadl/AdaRubrics))
    — Dynamically generates task-specific rubrics to evaluate agent trajectories step by step and produce confidence-weighted preference data for reward learning.
    `general-agent` `rubric-evaluation` `reward-learning`
 
@@ -252,7 +252,7 @@ Contributions welcome — see [Contributing](#contributing).
    — Measures the value of each agent action by evaluating the change it induces between consecutive environment states with state-grounded LLM evaluators.
    `general-agent` `step-value` `state-grounded-evaluation`
 
-8. **(ACL-Findings 2026) ToolPRMBench: Evaluating and Advancing Process Reward Models for Tool-using Agents** [[Paper](https://arxiv.org/abs/2601.12294)] [[Code](https://github.com/David-Li0406/ToolPRMBench)]
+8. **(ACL-Findings 2026) ToolPRMBench: Evaluating and Advancing Process Reward Models for Tool-using Agents** [[Paper](https://arxiv.org/abs/2601.12294)] ([![GitHub Repo stars](https://img.shields.io/github/stars/David-Li0406/ToolPRMBench)](https://github.com/David-Li0406/ToolPRMBench))
    — Introduces a large-scale benchmark of structured, step-level test cases for evaluating and advancing process reward models in tool-using agent scenarios.
    `tool-agent` `process-reward-model` `benchmark`
 
@@ -260,11 +260,11 @@ Contributions welcome — see [Contributing](#contributing).
 
 *Methods for structuring, abstracting, and exposing an agent’s internal state and external interactions.*
 
-1. **(PACMI 2025) AgentSight: System-Level Observability for AI Agents Using eBPF** [[Paper](https://arxiv.org/abs/2508.02736)] [[Code](https://github.com/agent-sight/agentsight)]
+1. **(PACMI 2025) AgentSight: System-Level Observability for AI Agents Using eBPF** [[Paper](https://arxiv.org/abs/2508.02736)] ([![GitHub Repo stars](https://img.shields.io/github/stars/agent-sight/agentsight)](https://github.com/agent-sight/agentsight))
    — Applies system-level telemetry to observe agent interactions with tools, processes, and runtime environments.
    `observability` `ebpf`
 
-2. **(arXiv 2026) CodeTracer: Towards Traceable Agent States** [[Paper](https://arxiv.org/abs/2604.11641)] [[Code](https://github.com/NJU-LINK/CodeTracer)]
+2. **(arXiv 2026) CodeTracer: Towards Traceable Agent States** [[Paper](https://arxiv.org/abs/2604.11641)] ([![GitHub Repo stars](https://img.shields.io/github/stars/NJU-LINK/CodeTracer)](https://github.com/NJU-LINK/CodeTracer))
    — Introduces explicit representations of coding-agent states to support stage- and step-level failure tracing.
    `coding-agent` `state-representation` 
 
@@ -272,7 +272,7 @@ Contributions welcome — see [Contributing](#contributing).
    — Converts sequential execution logs into hierarchical causal structures for downstream failure analysis.
    `multi-agent` `causal-graph` `hierarchical-graph`
 
-4. **(arXiv 2026) GRADE: Graph Representation of LLM Agent Dependency and Execution** [[Paper](https://arxiv.org/abs/2606.22741)] [[Code](https://github.com/yzhao062/grade)]
+4. **(arXiv 2026) GRADE: Graph Representation of LLM Agent Dependency and Execution** [[Paper](https://arxiv.org/abs/2606.22741)] ([![GitHub Repo stars](https://img.shields.io/github/stars/yzhao062/grade)](https://github.com/yzhao062/grade))
    — Models an agent run as a two-layer graph with execution edges and dependency edges graded, to predict failure likelihood and localize the faulting step.
    `general-agent` `graph-representation` `dependency-tracing`
 
@@ -314,7 +314,7 @@ Contributions welcome — see [Contributing](#contributing).
 
 ### General Agents/Mixed 
 
-1. **Who&When** [[Paper](https://arxiv.org/abs/2505.00212)] [[Data](https://github.com/ag2ai/Agents_Failure_Attribution)]
+1. **Who&When** [[Paper](https://arxiv.org/abs/2505.00212)] ([![GitHub Repo stars](https://img.shields.io/github/stars/ag2ai/Agents_Failure_Attribution)](https://github.com/ag2ai/Agents_Failure_Attribution))
    — 127 multi-agent trajectories annotated with the responsible agent and the time at which the failure was introduced.
    `multi-agent` `agent-attribution` `temporal-localization`
 
@@ -322,11 +322,11 @@ Contributions welcome — see [Contributing](#contributing).
    — 148 GAIA/SWE-Bench-derived agent traces with 841 annotated errors, for reasoning-trace analysis and agentic issue localization.
    `multi-agent` `issue-localization` `reasoning-trace`
 
-3. **AgentErrorBench** [[Paper](https://arxiv.org/abs/2509.25370)] [[Data](https://github.com/ulab-uiuc/AgentDebug)]
+3. **AgentErrorBench** [[Paper](https://arxiv.org/abs/2509.25370)] ([![GitHub Repo stars](https://img.shields.io/github/stars/ulab-uiuc/AgentDebug)](https://github.com/ulab-uiuc/AgentDebug))
    — 200 multi-agent/embodied executions (ALFWorld, GAIA, WebShop) annotated under the AgentErrorTaxonomy for failure analysis and attribution.
    `multi-agent` `failure-attribution` `benchmark`
 
-4. **MP-Bench** [[Paper](https://arxiv.org/abs/2603.25001)] [[Code](https://github.com/yeonjun-in/MP-Bench)]
+4. **MP-Bench** [[Paper](https://arxiv.org/abs/2603.25001)] ([![GitHub Repo stars](https://img.shields.io/github/stars/yeonjun-in/MP-Bench)](https://github.com/yeonjun-in/MP-Bench))
    — Multi-perspective attribution data (289 instances) containing per-annotator failure-reason and ideal-action annotations.
    `multi-agent` `multi-perspective` `ideal-action`
 
