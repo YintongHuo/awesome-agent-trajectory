@@ -9,8 +9,6 @@ Your all-in-one guide to agent trajectories.
 
 > **Trajectories are the source code of the agentic era.**
 
-> If software engineering is defined by reading and writing code, **agent engineering** will be defined by capturing and optimizing execution trajectories. 
-
 *An **Agent Trajectory** is the step-by-step record of an autonomous agent's execution. It captures the agent's internal reasoning (thoughts, planning, reflections), the actions it took (tool calls, API payloads, bash commands), and the environment’s responses (observations, errors, system state changes). Trajectories are becoming the first-hand asset for debugging, evaluating, training, and auditing AI agents.*
 
 This repository is a curated collection of papers, tools, and benchmarks on **analyzing, diagnosing, and learning from LLM agent trajectories**.
