@@ -129,23 +129,23 @@ Contributions welcome | see [Contributing](#contributing).
 
 6. **(ICLR 2026) AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?** [[Paper](https://arxiv.org/abs/2509.03312)] [![GitHub Repo stars](https://img.shields.io/github/stars/bingreeky/AgenTracer)](https://github.com/bingreeky/AgenTracer)
    | Trains an AgenTracer-8B via counterfactual replay and programmed fault injection to attribute failures to responsible agents or trajectory segments.
-   `multi-agent` `failure-attribution` `tracer-model`
+   `multi-agent-system` `automated labeling pipeline` `reinforcement-learning`
 
 7. **(FSE 2026) Who Is Introducing the Failure? Automatically Attributing Failures of Multi-Agent Systems via Spectrum Analysis** [[Paper](https://arxiv.org/abs/2509.13782)]
    | Adapts spectrum-based fault-localization from software testing (FAMAS) to score which agent actions are most suspicious across repeated trajectory executions.
-   `multi-agent` `spectrum-analysis` `fault-localization`
+   `multi-agent` `SBFL` `general-agent`
 
 8. **(ACL 2026) Seeing the Whole Elephant: A Benchmark for Failure Attribution in LLM-based Multi-Agent Systems** [[Paper](https://arxiv.org/abs/2604.22708)] [![GitHub Repo stars](https://img.shields.io/github/stars/TraceElephant/TraceElephant)](https://github.com/TraceElephant/TraceElephant)
    | Introduces TraceElephant, a benchmark and evaluation framework that captures complete multi-agent execution traces for assessing failure attribution across agents, interactions, and time steps.
-   `multi-agent` `full-observability` `recovery`
+   `multi-agent` `benchmarking` 
 
 9. **(EACL 2026) RAFFLES: Reasoning-Based Attribution of Faults for LLM Systems** [[Paper](https://arxiv.org/abs/2509.06822)]
    | Presents an offline evaluation architecture that combines structured reasoning with iterative refinement to attribute system-level failures to faulty agents and execution steps.
-   `general-agent` `fault-attribution` `reasoning`
+   `general-agent` `Judge-Evaluator system` `iterative reasoning`
 
 10. **(arXiv 2026) TrajAudit: Automated Failure Diagnosis for Agentic Coding Systems** [[Paper](https://arxiv.org/abs/2605.26563)] [![GitHub Repo stars](https://img.shields.io/github/stars/LogAnalysisTech/TrajAudit)](https://github.com/LogAnalysisTech/TrajAudit)
     | Uses an investigator agent with context-reduction mechanisms to localize the earliest decisive error step in repository-level coding-agent trajectories and generate diagnostic justifications.
-    `coding-agent` `failure-localization` `diagnosis`
+    `coding-agent` `long trajectory` `context-folding`
 
 11. **(arXiv 2026) AgentRx: Diagnosing AI Agent Failures from Execution Trajectories** [[Paper](https://arxiv.org/abs/2602.02475)] [![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/AgentRx)](https://github.com/microsoft/AgentRx)
     | Synthesizes and checks step-wise constraints to diagnose root causes and pinpoint the earliest unrecoverable point in failed executions.
