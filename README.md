@@ -394,6 +394,10 @@ Contributions welcome | see [Contributing](#contributing).
    | 9,533 trajectories across diverse MAS architectures and task domains, automatically labeled with faulty agents and error modes via an LLM-based error injector, supporting SFT, RL, and contrastive-learning training paradigms.
    `multi-agent` `failure-attribution` `automated-annotation`
 
+6. **ClawBench** [[Paper](https://arxiv.org/abs/2604.08523)] [[Code](https://github.com/reacher-z/ClawBench)] [[Data](https://huggingface.co/datasets/NAIL-Group/ClawBenchV1Trace)]
+   | Real-world browser-agent benchmark releasing five-layer run artifacts: MP4 replay, screenshots, HTTP requests, browser actions, and agent messages.
+   `browser-agent` `multimodal-trajectory` `real-world-benchmark`
+
 ### Deep-Research Agents 
 
 1. **TELBench** [[Paper](https://arxiv.org/abs/2606.02060)] [[HuggingFace](https://huggingface.co/datasets/NJU-LINK/TELBench)]
