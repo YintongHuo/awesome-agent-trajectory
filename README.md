@@ -25,7 +25,7 @@ This list tracks work across the trajectory-analysis pipeline:
 - **Supporting humans** in inspecting, visualizing, and explaining agent behavior
 - **Benchmarking** all of the above with labeled datasets
 
-Contributions welcome | see [Contributing](#contributing).
+Contributions, discussions, and collaborations are welcome! | see [Contributing](#contributing). 
 
 ## Table of Contents
 
@@ -423,7 +423,7 @@ Open a pull request. Add an entry to the most relevant section, following the ex
 
 ## Contacting
 
-For any enquiries, please contact Yintong Huo (ythuo@smu.edu.sg) or Minxing Wang (mx.wang.2026@phdcs.smu.edu.sg). We welcome any discussions and suggestions :)
+For any enquiries, please contact Dr. Yintong Huo (ythuo@smu.edu.sg) or Minxing Wang (mx.wang.2026@phdcs.smu.edu.sg). We welcome any discussions and suggestions :)
 
 ## License
 
