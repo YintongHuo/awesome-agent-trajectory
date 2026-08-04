@@ -265,6 +265,10 @@ Contributions, discussions, and collaborations are welcome! | see [Contributing]
    | Iteratively refines trajectories through a Plan-Inspect-eVOlve-Verify loop that executes candidate plans, computes textual gradients encoding plan-execution discrepancies, and applies them to produce improved trajectories with a monotonic acceptance guarantee.
    `general-agent` `trajectory-refinement` `self-improvement`
 
+10. **(arXiv 2026) Bug Report Specification Refinement with Trajectory Guidance for Automated Program Repair** [[Paper](https://arxiv.org/pdf/2607.07882)]
+   | Extracts specification evidence from the trajectory of an unverified trajectory-collection run, organizes it into a hierarchical representation, and reviews it against the pre-fix repository to generate a refined bug report that guides downstream repair agents.
+   `coding-agent`  `trajectory-derived-specification`. `program-repair`
+
 ### Anomaly Detection and Failure Forecasting 
 > *Methods that detect abnormal behavior or estimate whether an ongoing trajectory is becoming likely to fail.*
 
