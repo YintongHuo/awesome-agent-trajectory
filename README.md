@@ -27,6 +27,10 @@ This list tracks work across the trajectory-analysis pipeline:
 
 Contributions, discussions, and collaborations are welcome! | see [Contributing](#contributing). 
 
+**Updating History**
+This repository is under active maintenance!
+- [Aug 26] Updating TraceLab, TrajSpec
+
 ## Table of Contents
 
 1. [Surveys and Position Papers](#surveys-and-position-papers)
@@ -373,7 +377,11 @@ Contributions, discussions, and collaborations are welcome! | see [Contributing]
 
 3. **CodeTraceBench** [[Paper](https://arxiv.org/abs/2604.11641)] [[HuggingFace](https://huggingface.co/datasets/NJU-LINK/CodeTraceBench)]
    | Coding-agent trajectories (1,000 human-verified) with stage-level annotations for diagnosis.
-   `stage-annotation` `failure-localization` 
+   `stage-annotation` `failure-localization`
+
+4. **TraceLab** [[Paper](https://arxiv.org/abs/2606.30560)] [[Dataset](https://github.com/uw-syfi/TraceLab#-the-dataset)]
+   | A trace of roughly 4,300 coding-agent sessions, containing about 350k LLM steps from our own day-to-day use of Claude Code and Codex. 
+   `day-to-day programming` `real-world workflow` 
 
 
 ### General Agents/Mixed 
