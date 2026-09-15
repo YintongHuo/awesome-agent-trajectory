@@ -54,7 +54,7 @@ This repository is under active maintenance!
 
 *Literature surveys and forward-looking position/vision papers that map the trajectory-analysis landscape or propose research agendas for it.*
 
-1. **(arXiv 2026) Agent System Operations: Categorization, Challenges, and Future Directions** [[Paper](https://arxiv.org/abs/2606.01581)]
+1. **(TSE 2026) Agent System Operations: Categorization, Challenges, and Future Directions** [[Paper](https://arxiv.org/abs/2606.01581)]
     | Defines AgentOps around monitoring, anomaly detection, root-cause
    localization, and resolution, with intra-agent and inter-agent anomaly
    taxonomies.
@@ -194,6 +194,10 @@ This repository is under active maintenance!
 17. **(arXiv 2026) StepFinder: A Temporal Semantic Framework for Failure Attribution in Multi-Agent Systems** [[Paper](https://arxiv.org/abs/2606.03467)] [![GitHub Repo stars](https://img.shields.io/github/stars/taiyu-zhu/StepFinder)](https://github.com/taiyu-zhu/StepFinder)
     | Encodes execution logs into temporal semantic sequences with an LLM, then uses lightweight temporal modeling and attention over the sequence to score and localize the root-cause step, cutting inference time by 79% versus the fastest LLM-based baseline.
     `multi-agent` `failure-attribution` `temporal-modeling`
+
+18. **(arXiv 2026) Detect Before You Attribute: Cascade Failure Attribution for Multi-Agent Systems**[[Paper](https://arxiv.org/abs/2608.29646)]
+    | A extensible plug-and-play detection filter for LLM-based failure attribution.
+    `cascading failure` `detect-before-attribute`
 
 
 ### Runtime Intervention, Recovery, and Repair 
@@ -409,6 +413,10 @@ This repository is under active maintenance!
 6. **ClawBench** [[Paper](https://arxiv.org/abs/2604.08523)] [[Code](https://github.com/reacher-z/ClawBench)] [[Data](https://huggingface.co/datasets/NAIL-Group/ClawBenchV1Trace)]
    | Real-world browser-agent benchmark releasing five-layer run artifacts: MP4 replay, screenshots, HTTP requests, browser actions, and agent messages.
    `browser-agent` `multimodal-trajectory` `real-world-benchmark`
+
+7. **LongRCA Bench** [[Paper](https://arxiv.org/abs/2608.15242)] [[Data](https://huggingface.co/datasets/CLoud5-real/longrca-bench)]
+   | 1,140 failed trajectories from five task domains, labeled with error agent and error steps.
+   `multi-task` `error-step` `MAS`
 
 ### Deep-Research Agents 
 
