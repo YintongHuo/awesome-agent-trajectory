@@ -187,7 +187,7 @@ This repository is under active maintenance!
     | Introduces AgentLocate, which combines an LLM-based judge with multi-perspective verification by independent evaluators and confidence-aware aggregation, then adapts the judge via lightweight fine-tuning to attribute failures to both the responsible agent and the earliest decisive step.
     `multi-agent` `failure-attribution` `llm-as-judge`
 
-16. **(arXiv 2026) VerifyMAS: Hypothesis Verification for Failure Attribution in LLM Multi-Agent Systems** [[Paper](https://arxiv.org/abs/2605.17467)]
+16. **(NeurIPS 2026) VerifyMAS: Hypothesis Verification for Failure Attribution in LLM Multi-Agent Systems** [[Paper](https://arxiv.org/abs/2605.17467)]
     | Reframes failure attribution as error-first hypothesis verification against full trajectories rather than direct agent-error prediction, decomposing it into trajectory-level error validation and fine-grained agent localization via a fine-tuned LLM verifier.
     `multi-agent` `failure-attribution` `hypothesis-verification`
 
