@@ -364,6 +364,10 @@ This repository is under active maintenance!
    | Examines how explainability changes when predictions are replaced by sequential, tool-mediated agent actions.
    `general-agent` `explainability` `conceptual-analysis`
 
+4. **(arXiv 2026) onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction** [[Paper](https://arxiv.org/abs/2609.24983)] [[Website](https://on-panda.github.io/agent-trajectory-annotation/)] [![GitHub Repo stars](https://img.shields.io/github/stars/on-panda/on-panda)](https://github.com/on-panda/on-panda)
+   | Connects to live agent environments via MCP to support interactive token-level correction of reasoning chains and tool calls, producing on-policy SFT, preference, and fine-grained supervision data.
+   `general-agent` `trajectory-annotation` `token-level-correction`
+
 
 ## Trajectory Benchmarks and Datasets
 
