@@ -122,6 +122,10 @@ This repository is under active maintenance!
     | Shows that 10.7% of passing SWE-agent trajectories are "Lucky Passes".
     `coding-agent` `process-assessment`
 
+12. **(arXiv 2026) Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy** [[Paper](https://arxiv.org/abs/2606.24177)] [![GitHub Repo stars](https://img.shields.io/github/stars/AutoResearch-Factory/Agon)](https://github.com/AutoResearch-Factory/Agon)
+    | Maps recurring failure modes from multi-agent research runs across 10+ fields, including 105 audit reports with zero clean passes and emergent group failures among agents.
+    `research-agent` `multi-agent` `failure-taxonomy`
+
 
 ### Failure Localization, Attribution, and Diagnosis 
 
@@ -421,6 +425,10 @@ This repository is under active maintenance!
 7. **LongRCA Bench** [[Paper](https://arxiv.org/abs/2608.15242)] [[Data](https://huggingface.co/datasets/CLoud5-real/longrca-bench)]
    | 1,140 failed trajectories from five task domains, labeled with error agent and error steps.
    `multi-task` `error-step` `MAS`
+
+8. **SciΠvot** [[Paper](https://arxiv.org/abs/2610.21082)] [[Code](https://github.com/AutoResearch-Factory/SciPIvot)] [[HuggingFace](https://huggingface.co/datasets/sun1245/SciPIvot)]
+   | 248 pivotal moments from 26 real research projects in 6 fields, each labeled with the correction a senior researcher gave the LLM agent.
+   `research-agent` `pi-judgment` `expert-correction`
 
 ### Deep-Research Agents 
 
