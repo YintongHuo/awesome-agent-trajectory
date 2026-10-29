@@ -121,6 +121,9 @@ This repository is under active maintenance!
 11. **(arXiv 2026) AgentLens: Revealing The Lucky Pass Problem in SWE-Agent Evaluation** [[Paper](https://arxiv.org/abs/2605.12925)]
     | Shows that 10.7% of passing SWE-agent trajectories are "Lucky Passes".
     `coding-agent` `process-assessment`
+12. **(COLM 2026 Workshop on Agent Behavior) Evaluating Code Slop in Long-Horizon Coding Agents** [[Paper](https://openreview.net/forum?id=VLgFkLRUfV)]
+    | Measures the code volume, control-flow complexity, and maintainability debt that coding agents leave behind on SWE-EVO and compares cleanup policies; monitor-triggered cleanup reduces slop most at lower cost than periodic cleanup.
+    `coding-agent` `code-quality` `runtime-intervention`
 
 12. **(arXiv 2026) Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy** [[Paper](https://arxiv.org/abs/2606.24177)] [![GitHub Repo stars](https://img.shields.io/github/stars/AutoResearch-Factory/Agon)](https://github.com/AutoResearch-Factory/Agon)
     | Maps recurring failure modes from multi-agent research runs across 10+ fields, including 105 audit reports with zero clean passes and emergent group failures among agents.
