@@ -372,6 +372,10 @@ This repository is under active maintenance!
    | Connects to live agent environments via MCP to support interactive token-level correction of reasoning chains and tool calls, producing on-policy SFT, preference, and fine-grained supervision data.
    `general-agent` `trajectory-annotation` `token-level-correction`
 
+5. **(arXiv 2026) Agent ATO: Visualizing Agent Interaction Timelines from Logs** [[Paper](https://arxiv.org/pdf/2609.08301)] [[Code](https://github.com/TkKawam/Agent-ATO)]
+   | Visualizes coding-agent interactions from console logs as timelines, with filtered views for file discovery, reading, editing, and execution.
+   `coding-agent` `visualization` `log-analysis`
+
 
 ## Trajectory Benchmarks and Datasets
 
