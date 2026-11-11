@@ -372,6 +372,10 @@ This repository is under active maintenance!
    | Connects to live agent environments via MCP to support interactive token-level correction of reasoning chains and tool calls, producing on-policy SFT, preference, and fine-grained supervision data.
    `general-agent` `trajectory-annotation` `token-level-correction`
 
+5. **Agent Retry Rodeo** [[Code](https://github.com/RishabhPande/agent-retry-rodeo)]
+   | Offline teaching simulator for comparing scripted agent-recovery traces, tool calls and persisted-state assertions across lost acknowledgements, partial writes, stale versions and invalid transitions.
+   `synthetic-simulator` `recovery` `trajectory-visualization`
+
 
 ## Trajectory Benchmarks and Datasets
 
